@@ -1,0 +1,15 @@
+*.def
+*.o
+*.so
+*.out
+*.~undo-tree~
+*.bin
+test_z80
+test_c
+conv_32_16
+.gdb_history
+*.swp
+*.*~
+GPATH
+GRTAGS
+GTAGS

@@ -1,0 +1,43 @@
+{
+ "args": {
+  "model": "gpt2-large",
+  "nseq": 6,
+  "len": 128,
+  "cfgs": "fp16,rte",
+  "offset": 0,
+  "chunk": 8,
+  "thr2": 11,
+  "out": "../results/llm_g8_thr1-5_thr2-11.json"
+ },
+ "results": {
+  "fp16": {
+   "ppl": 41.21318974857471,
+   "tokens": 762,
+   "sec": 373.32252836227417,
+   "macs": 602046136320,
+   "mode_share": {
+    "zero": 0.0078,
+    "full": 0.9922,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "rte": {
+   "ppl": 41.047474401883335,
+   "tokens": 762,
+   "sec": 501.0966422557831,
+   "macs": 602046136320,
+   "mode_share": {
+    "zero": 0.00778,
+    "full": 0.01047,
+    "skip_bd": 0.18723,
+    "ac": 0.68502,
+    "skip": 0.1095,
+    "ovf": 0.0
+   },
+   "mean_abs_dnll_fp16": 0.06788516044616699
+  }
+ }
+}

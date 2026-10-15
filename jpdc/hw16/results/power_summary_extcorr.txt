@@ -1,0 +1,17 @@
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_net_mobilenet_v2.rpt MAC=16.99 fp_add=11.86 kacy=2.65 MUL_ac=0.25 MUL_ad=0.16 MUL_bc=0.17 MUL_bd=0.03
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_net_resnet18.rpt MAC=9.52 fp_add=6.86 kacy=1.25 MUL_ac=0.14 MUL_ad=0.05 MUL_bc=0.06
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_net_resnet50.rpt MAC=10.73 fp_add=7.74 kacy=1.36 MUL_ac=0.14 MUL_ad=0.07 MUL_bc=0.07 MUL_bd=0.01
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_net_vit_b_16.rpt MAC=15.80 fp_add=11.53 kacy=2.13 MUL_ac=0.28 MUL_ad=0.08 MUL_bc=0.08
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_syn_ac.rpt MAC=20.16 fp_add=14.94 kacy=1.97 MUL_ac=0.33
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_syn_full.rpt MAC=26.87 fp_add=17.93 kacy=4.78 MUL_ac=0.33 MUL_ad=0.30 MUL_bc=0.31 MUL_bd=0.30
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_syn_skip_bd.rpt MAC=26.85 fp_add=18.82 kacy=4.06 MUL_ac=0.33 MUL_ad=0.30 MUL_bc=0.31
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_msb/power_syn_skip.rpt MAC=0.94 fp_add=0.03
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_net_mobilenet_v2.rpt MAC=16.60 fp_add=11.27 kacy=2.79 MUL_ac=0.22 MUL_ad=0.17 MUL_bc=0.17 MUL_bd=0.03
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_net_resnet18.rpt MAC=9.09 fp_add=6.30 kacy=1.35 MUL_ac=0.13 MUL_ad=0.06 MUL_bc=0.06
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_net_resnet50.rpt MAC=10.03 fp_add=6.93 kacy=1.46 MUL_ac=0.13 MUL_ad=0.07 MUL_bc=0.07 MUL_bd=0.01
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_net_vit_b_16.rpt MAC=15.24 fp_add=10.70 kacy=2.33 MUL_ac=0.24 MUL_ad=0.08 MUL_bc=0.08
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_syn_ac.rpt MAC=19.45 fp_add=13.97 kacy=2.17 MUL_ac=0.28
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_syn_full.rpt MAC=26.77 fp_add=17.78 kacy=4.81 MUL_ac=0.28 MUL_ad=0.30 MUL_bc=0.32 MUL_bd=0.30
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_syn_skip_bd.rpt MAC=26.22 fp_add=18.15 kacy=4.12 MUL_ac=0.28 MUL_ad=0.30 MUL_bc=0.32
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_ext_rte/power_syn_skip.rpt MAC=0.95 fp_add=0.03
+EXTCORR_DONE

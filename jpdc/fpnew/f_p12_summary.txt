@@ -1,0 +1,2 @@
+fpnew_fma_fp16 period=12 LUT=610 FF=16 LATCH=0 CARRY4=33 DSP=1
+worst: delay=15.712 slack=-3.179 from=b[2] to=sumout_reg[9]/D

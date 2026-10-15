@@ -1,0 +1,40 @@
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_net_mobilenet_v2.rpt MAC=18.41 fp_add=12.51 kacy=2.63 MUL_ac=0.24 MUL_ad=0.22 MUL_bc=0.22 MUL_bd=0.18 msel=0.23
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_net_resnet18.rpt MAC=10.96 fp_add=7.35 kacy=1.60 MUL_ac=0.16 MUL_ad=0.14 MUL_bc=0.13 MUL_bd=0.12 msel=0.14
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_net_resnet50.rpt MAC=12.73 fp_add=8.69 kacy=1.69 MUL_ac=0.17 MUL_ad=0.14 MUL_bc=0.14 MUL_bd=0.12 msel=0.16
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_net_vit_b_16.rpt MAC=16.63 fp_add=11.52 kacy=2.41 MUL_ac=0.27 MUL_ad=0.22 MUL_bc=0.21 MUL_bd=0.20 msel=0.17
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_syn_ac.rpt MAC=24.46 fp_add=17.13 kacy=2.57 MUL_ac=0.31 MUL_ad=0.23 MUL_bc=0.22 MUL_bd=0.20 msel=0.49
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_syn_full.rpt MAC=25.49 fp_add=16.53 kacy=3.96 MUL_ac=0.30 MUL_ad=0.32 MUL_bc=0.32 MUL_bd=0.29 msel=0.42
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_syn_skip_bd.rpt MAC=27.84 fp_add=18.63 kacy=3.96 MUL_ac=0.31 MUL_ad=0.34 MUL_bc=0.34 MUL_bd=0.20 msel=0.51
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_nolatch/power_syn_skip.rpt MAC=5.33 fp_add=1.68 kacy=1.60 MUL_ac=0.19 MUL_ad=0.20 MUL_bc=0.19 MUL_bd=0.19 msel=0.25
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_net_mobilenet_v2.rpt MAC=16.84 fp_add=11.63 kacy=2.81 MUL_ac=0.20 MUL_ad=0.20 MUL_bc=0.23 MUL_bd=0.22
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_net_resnet18.rpt MAC=10.74 fp_add=7.20 kacy=1.89 MUL_ac=0.14 MUL_ad=0.14 MUL_bc=0.15 MUL_bd=0.16
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_net_resnet50.rpt MAC=11.67 fp_add=8.06 kacy=1.83 MUL_ac=0.14 MUL_ad=0.14 MUL_bc=0.15 MUL_bd=0.15
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_net_vit_b_16.rpt MAC=16.19 fp_add=10.49 kacy=3.38 MUL_ac=0.24 MUL_ad=0.24 MUL_bc=0.28 MUL_bd=0.27
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_syn_ac.rpt MAC=22.28 fp_add=15.80 kacy=3.52 MUL_ac=0.26 MUL_ad=0.25 MUL_bc=0.29 MUL_bd=0.26
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_syn_full.rpt MAC=22.22 fp_add=15.70 kacy=3.52 MUL_ac=0.26 MUL_ad=0.25 MUL_bc=0.29 MUL_bd=0.26
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_syn_skip_bd.rpt MAC=24.74 fp_add=18.14 kacy=3.52 MUL_ac=0.26 MUL_ad=0.25 MUL_bc=0.29 MUL_bd=0.27
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_std/power_syn_skip.rpt MAC=19.99 fp_add=13.69 kacy=3.53 MUL_ac=0.26 MUL_ad=0.25 MUL_bc=0.29 MUL_bd=0.27
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_net_mobilenet_v2.rpt MAC=20.67 fp_add=13.97 kacy=3.27 MUL_ac=0.25 MUL_ad=0.19 MUL_bc=0.21 MUL_bd=0.08 msel=0.28
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_net_resnet18.rpt MAC=11.56 fp_add=7.98 kacy=1.65 MUL_ac=0.16 MUL_ad=0.07 MUL_bc=0.07 MUL_bd=0.02 msel=0.16
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_net_resnet50.rpt MAC=13.19 fp_add=9.17 kacy=1.78 MUL_ac=0.16 MUL_ad=0.09 MUL_bc=0.09 MUL_bd=0.03 msel=0.19
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_net_vit_b_16.rpt MAC=18.11 fp_add=12.68 kacy=2.64 MUL_ac=0.28 MUL_ad=0.09 MUL_bc=0.10 MUL_bd=0.04 msel=0.20
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_syn_ac.rpt MAC=27.82 fp_add=19.77 kacy=2.70 MUL_ac=0.30 MUL_ad=0.09 MUL_bc=0.10 MUL_bd=0.08 msel=0.56
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_syn_full.rpt MAC=29.45 fp_add=18.64 kacy=5.33 MUL_ac=0.30 MUL_ad=0.34 MUL_bc=0.38 MUL_bd=0.33 msel=0.54
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_syn_skip_bd.rpt MAC=31.34 fp_add=20.67 kacy=5.08 MUL_ac=0.35 MUL_ad=0.36 MUL_bc=0.40 MUL_bd=0.01 msel=0.64
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_msb/power_syn_skip.rpt MAC=3.16 fp_add=1.31 kacy=0.18 MUL_ad=0.02 MUL_bc=0.02 msel=0.29
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_net_mobilenet_v2.rpt MAC=19.90 fp_add=13.36 kacy=3.11 MUL_ac=0.25 MUL_ad=0.21 MUL_bc=0.20 MUL_bd=0.07 msel=0.36
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_net_resnet18.rpt MAC=11.26 fp_add=7.76 kacy=1.57 MUL_ac=0.16 MUL_ad=0.07 MUL_bc=0.07 MUL_bd=0.02 msel=0.19
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_net_resnet50.rpt MAC=13.00 fp_add=9.06 kacy=1.68 MUL_ac=0.16 MUL_ad=0.09 MUL_bc=0.09 MUL_bd=0.03 msel=0.21
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_net_vit_b_16.rpt MAC=17.31 fp_add=12.06 kacy=2.50 MUL_ac=0.28 MUL_ad=0.10 MUL_bc=0.10 MUL_bd=0.03 msel=0.25
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_syn_ac.rpt MAC=30.07 fp_add=21.96 kacy=2.58 MUL_ac=0.36 MUL_ad=0.05 MUL_bc=0.05 MUL_bd=0.03 msel=0.59
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_syn_full.rpt MAC=29.40 fp_add=18.73 kacy=5.19 MUL_ac=0.31 MUL_ad=0.37 MUL_bc=0.36 MUL_bd=0.33 msel=0.70
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_syn_skip_bd.rpt MAC=36.10 fp_add=24.55 kacy=5.03 MUL_ac=0.37 MUL_ad=0.42 MUL_bc=0.41 msel=0.88
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram/power_syn_skip.rpt MAC=2.61 fp_add=0.88 kacy=0.17 MUL_ac=0.01 MUL_ad=0.01 MUL_bc=0.01 msel=0.31
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_net_mobilenet_v2.rpt MAC=20.57 fp_add=13.97 kacy=3.32 MUL_ac=0.27 MUL_ad=0.20 MUL_bc=0.18 MUL_bd=0.05 msel=0.29
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_net_resnet18.rpt MAC=11.90 fp_add=8.25 kacy=1.74 MUL_ac=0.17 MUL_ad=0.07 MUL_bc=0.06 MUL_bd=0.01 msel=0.16
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_net_resnet50.rpt MAC=13.72 fp_add=9.64 kacy=1.86 MUL_ac=0.17 MUL_ad=0.09 MUL_bc=0.08 MUL_bd=0.02 msel=0.19
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_net_vit_b_16.rpt MAC=18.41 fp_add=12.87 kacy=2.79 MUL_ac=0.29 MUL_ad=0.09 MUL_bc=0.09 MUL_bd=0.01 msel=0.21
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_syn_ac.rpt MAC=28.75 fp_add=20.57 kacy=2.95 MUL_ac=0.34 MUL_ad=0.07 MUL_bc=0.08 MUL_bd=0.02 msel=0.56
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_syn_full.rpt MAC=30.45 fp_add=19.79 kacy=5.42 MUL_ac=0.33 MUL_ad=0.35 MUL_bc=0.34 MUL_bd=0.29 msel=0.47
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_syn_skip_bd.rpt MAC=32.74 fp_add=22.20 kacy=4.98 MUL_ac=0.35 MUL_ad=0.36 MUL_bc=0.35 MUL_bd=0.01 msel=0.60
+POWER_mW /home/yuan/TangramFP-jpdc/hw16/out_tangram_rte/power_syn_skip.rpt MAC=3.90 fp_add=1.94 kacy=0.32 MUL_ac=0.01 MUL_ad=0.02 MUL_bc=0.02 msel=0.28

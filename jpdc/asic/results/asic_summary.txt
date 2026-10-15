@@ -1,0 +1,10 @@
+ext_msb gating=4 corr=1 2975.476000 um2 cells= latches=62 unmapped=0 arrival=3.886 ns slack=6.080 power_vectorless=1.82e-03
+extnl_rte gating=5 corr=2 3059.532000 um2 cells= latches=0 unmapped=0 arrival=4.937 ns slack=5.019 power_vectorless=1.76e-03
+extnl gating=5 corr=0 2898.602000 um2 cells= latches=0 unmapped=0 arrival=4.975 ns slack=4.979 power_vectorless=2.01e-03
+ext_rte gating=4 corr=2 3002.874000 um2 cells= latches=62 unmapped=0 arrival=3.849 ns slack=6.112 power_vectorless=1.73e-03
+ext gating=4 corr=0 3013.780000 um2 cells= latches=62 unmapped=0 arrival=3.950 ns slack=6.006 power_vectorless=1.93e-03
+nolatch gating=1 corr=0 2846.466000 um2 cells= latches=2 unmapped=0 arrival=4.325 ns slack=5.630 power_vectorless=1.72e-03
+std gating=0 corr=0 2886.366000 um2 cells= latches=0 unmapped=0 arrival=4.888 ns slack=5.072 power_vectorless=2.57e-03
+tfp_msb gating=2 corr=1 3006.864000 um2 cells= latches=64 unmapped=0 arrival=3.788 ns slack=6.173 power_vectorless=2.03e-03
+tfp_rte gating=2 corr=2 2999.682000 um2 cells= latches=64 unmapped=0 arrival=3.791 ns slack=6.170 power_vectorless=2.22e-03
+tfp gating=2 corr=0 3024.420000 um2 cells= latches=64 unmapped=0 arrival=3.550 ns slack=6.407 power_vectorless=2.29e-03

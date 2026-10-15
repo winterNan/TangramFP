@@ -1,0 +1,64 @@
+{
+ "args": {
+  "model": "vit_b_16",
+  "n": 60,
+  "bs": 4,
+  "data": "/home/yuan/TangramFP-jpdc/data/imagenette2-320/val",
+  "cfgs": "fp16,trunc,rte",
+  "chunk": 8,
+  "offset": -3,
+  "thr2": 12,
+  "out": "../results/img_g8_vit_b_16_thr1-2_thr2-12.json"
+ },
+ "results": {
+  "fp16": {
+   "top1": 0.9,
+   "top5": 1.0,
+   "sec": 593.2388062477112,
+   "n": 60,
+   "macs": 1053829693440,
+   "mode_share": {
+    "zero": 0.01448,
+    "full": 0.98552,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "trunc": {
+   "top1": 0.9,
+   "top5": 1.0,
+   "sec": 716.1714091300964,
+   "n": 60,
+   "macs": 1053829693440,
+   "mode_share": {
+    "zero": 0.01427,
+    "full": 0.01284,
+    "skip_bd": 0.01814,
+    "ac": 0.80516,
+    "skip": 0.14958,
+    "ovf": 0.0
+   },
+   "agree_fp16": 1.0,
+   "logit_relerr_fp16": 0.041494596749544144
+  },
+  "rte": {
+   "top1": 0.9,
+   "top5": 1.0,
+   "sec": 722.9681642055511,
+   "n": 60,
+   "macs": 1053829693440,
+   "mode_share": {
+    "zero": 0.01443,
+    "full": 0.01285,
+    "skip_bd": 0.01812,
+    "ac": 0.80442,
+    "skip": 0.15017,
+    "ovf": 0.0
+   },
+   "agree_fp16": 1.0,
+   "logit_relerr_fp16": 0.030466977506875992
+  }
+ }
+}

@@ -1,0 +1,11 @@
+gating=1 corr=0 period=11 LUT=1050 LATCH=0 CARRY4=32
+cells_msel: LUT=17
+cells_kacy: LUT=262
+cells_fp_add: LUT=583
+worst: delay=16.845 slack=-5.336 from=a[3] to=sumout_reg[21]/D
+through_mult: delay=16.845 slack=-5.336 from=a[3] to=sumout_reg[21]/D
+through_msel: delay=16.845 slack=-5.336 from=a[3] to=sumout_reg[21]/D
+arr_mode: worst_total_through=16.845 pin=kacy/mode[1]
+arr_u: worst_total_through=15.175 pin=kacy/u[6]
+arr_v: worst_total_through=15.522 pin=kacy/v[3]
+arr_out: worst_total_through=16.845 pin=kacy/mantissa[21]

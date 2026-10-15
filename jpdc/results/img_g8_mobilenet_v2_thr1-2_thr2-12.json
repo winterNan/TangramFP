@@ -1,0 +1,64 @@
+{
+ "args": {
+  "model": "mobilenet_v2",
+  "n": 300,
+  "bs": 10,
+  "data": "/home/yuan/TangramFP-jpdc/data/imagenette2-320/val",
+  "cfgs": "fp16,trunc,rte",
+  "chunk": 8,
+  "offset": -3,
+  "thr2": 12,
+  "out": "../results/img_g8_mobilenet_v2_thr1-2_thr2-12.json"
+ },
+ "results": {
+  "fp16": {
+   "top1": 0.7533333333333333,
+   "top5": 0.9433333333333334,
+   "sec": 109.92163276672363,
+   "n": 300,
+   "macs": 90232281600,
+   "mode_share": {
+    "zero": 0.23327,
+    "full": 0.76673,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "trunc": {
+   "top1": 0.76,
+   "top5": 0.9433333333333334,
+   "sec": 117.57504940032959,
+   "n": 300,
+   "macs": 90232281600,
+   "mode_share": {
+    "zero": 0.23325,
+    "full": 0.06465,
+    "skip_bd": 0.06432,
+    "ac": 0.62631,
+    "skip": 0.01147,
+    "ovf": 0.0
+   },
+   "agree_fp16": 0.9866666793823242,
+   "logit_relerr_fp16": 0.061252180486917496
+  },
+  "rte": {
+   "top1": 0.7533333333333333,
+   "top5": 0.94,
+   "sec": 117.4457356929779,
+   "n": 300,
+   "macs": 90232281600,
+   "mode_share": {
+    "zero": 0.23328,
+    "full": 0.06466,
+    "skip_bd": 0.06432,
+    "ac": 0.62627,
+    "skip": 0.01148,
+    "ovf": 0.0
+   },
+   "agree_fp16": 0.9900000095367432,
+   "logit_relerr_fp16": 0.01869940012693405
+  }
+ }
+}

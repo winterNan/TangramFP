@@ -1,0 +1,47 @@
+{
+ "args": {
+  "model": "resnet50",
+  "n": 200,
+  "bs": 10,
+  "data": "/home/yuan/TangramFP-jpdc/data/imagenette2-320/val",
+  "cfgs": "fp16,rte",
+  "chunk": 8,
+  "offset": 0,
+  "thr2": 11,
+  "out": "../results/img_g8_resnet50_thr1-5_thr2-11.json"
+ },
+ "results": {
+  "fp16": {
+   "top1": 0.86,
+   "top5": 0.98,
+   "sec": 391.8264100551605,
+   "n": 200,
+   "macs": 817836851200,
+   "mode_share": {
+    "zero": 0.58864,
+    "full": 0.41136,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "rte": {
+   "top1": 0.865,
+   "top5": 0.98,
+   "sec": 487.9283173084259,
+   "n": 200,
+   "macs": 817836851200,
+   "mode_share": {
+    "zero": 0.58855,
+    "full": 0.01944,
+    "skip_bd": 0.14755,
+    "ac": 0.22166,
+    "skip": 0.02279,
+    "ovf": 0.0
+   },
+   "agree_fp16": 0.9950000047683716,
+   "logit_relerr_fp16": 0.01879723183810711
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "args": {
+  "model": "vit_b_16",
+  "n": 60,
+  "bs": 4,
+  "data": "/home/yuan/TangramFP-jpdc/data/imagenette2-320/val",
+  "cfgs": "fp16,rte",
+  "chunk": 8,
+  "offset": 0,
+  "thr2": 11,
+  "out": "../results/img_g8_vit_b_16_thr1-5_thr2-11.json"
+ },
+ "results": {
+  "fp16": {
+   "top1": 0.9,
+   "top5": 1.0,
+   "sec": 592.3634166717529,
+   "n": 60,
+   "macs": 1053829693440,
+   "mode_share": {
+    "zero": 0.01448,
+    "full": 0.98552,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "rte": {
+   "top1": 0.8833333333333333,
+   "top5": 0.9833333333333333,
+   "sec": 832.7581481933594,
+   "n": 60,
+   "macs": 1053829693440,
+   "mode_share": {
+    "zero": 0.01435,
+    "full": 0.01286,
+    "skip_bd": 0.18326,
+    "ac": 0.5936,
+    "skip": 0.19594,
+    "ovf": 0.0
+   },
+   "agree_fp16": 0.9833333492279053,
+   "logit_relerr_fp16": 0.10761557519435883
+  }
+ }
+}

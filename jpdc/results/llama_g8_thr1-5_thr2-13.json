@@ -1,0 +1,44 @@
+{
+ "args": {
+  "ckpt": "/data/yuan/llama-cpu/llama-2-7b",
+  "tok": "/data/yuan/llama-cpu/tokenizer.model",
+  "nseq": 6,
+  "len": 128,
+  "cfgs": "fp16,rte",
+  "offset": 0,
+  "chunk": 8,
+  "thr2": 13,
+  "out": "../results/llama_g8_thr1-5_thr2-13.json"
+ },
+ "results": {
+  "fp16": {
+   "ppl": 10.502639794838682,
+   "tokens": 762,
+   "sec": 9305.740603685379,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00726,
+    "full": 0.99274,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   }
+  },
+  "rte": {
+   "ppl": 10.57228122812149,
+   "tokens": 762,
+   "sec": 11050.738443136215,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00726,
+    "full": 0.00715,
+    "skip_bd": 0.14529,
+    "ac": 0.78156,
+    "skip": 0.05874,
+    "ovf": 0.0
+   },
+   "mean_abs_dnll_fp16": 0.037835173308849335
+  }
+ }
+}

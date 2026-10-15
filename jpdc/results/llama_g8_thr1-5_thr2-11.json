@@ -1,0 +1,29 @@
+{
+ "args": {
+  "ckpt": "/data/yuan/llama-cpu/llama-2-7b",
+  "tok": "/data/yuan/llama-cpu/tokenizer.model",
+  "nseq": 6,
+  "len": 128,
+  "cfgs": "rte",
+  "offset": 0,
+  "chunk": 8,
+  "thr2": 11,
+  "out": "../results/llama_g8_thr1-5_thr2-11.json"
+ },
+ "results": {
+  "rte": {
+   "ppl": 11.441144715303833,
+   "tokens": 762,
+   "sec": 4417.064389467239,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00724,
+    "full": 0.00716,
+    "skip_bd": 0.14552,
+    "ac": 0.68718,
+    "skip": 0.1529,
+    "ovf": 0.0
+   }
+  }
+ }
+}

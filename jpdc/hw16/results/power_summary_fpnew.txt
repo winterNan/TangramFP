@@ -1,0 +1,16 @@
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_net_mobilenet_v2.rpt MAC=14.55
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_net_resnet18.rpt MAC=8.80
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_net_resnet50.rpt MAC=9.58
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_net_vit_b_16.rpt MAC=15.41
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_syn_ac.rpt MAC=17.19
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_syn_full.rpt MAC=21.85
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_syn_skip_bd.rpt MAC=18.91
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp0_p14/power_syn_skip.rpt MAC=15.72
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_net_mobilenet_v2.rpt MAC=12.29
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_net_resnet18.rpt MAC=7.21
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_net_resnet50.rpt MAC=7.89
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_net_vit_b_16.rpt MAC=12.62
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_syn_ac.rpt MAC=14.38
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_syn_full.rpt MAC=19.29
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_syn_skip_bd.rpt MAC=16.37
+POWER_mW /home/yuan/TangramFP-jpdc/fpnew/f_dsp1_p14/power_syn_skip.rpt MAC=12.81

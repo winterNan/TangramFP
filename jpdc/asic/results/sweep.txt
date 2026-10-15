@@ -1,0 +1,21 @@
+std target_ps 1500 area 2886.366000 arrival 4.888
+std target_ps 3000 area 2886.366000 arrival 4.888
+std target_ps 1000 area 2886.366000 arrival 4.888
+std target_ps 4000 area 2886.366000 arrival 4.888
+std target_ps 2500 area 2886.366000 arrival 4.888
+nolatch target_ps 4000 area 2846.466000 arrival 4.325
+nolatch target_ps 2500 area 2846.466000 arrival 4.325
+nolatch target_ps 3000 area 2846.466000 arrival 4.325
+nolatch target_ps 1500 area 2846.466000 arrival 4.325
+nolatch target_ps 1000 area 2846.466000 arrival 4.325
+extnl target_ps 1000 area 2898.602000 arrival 4.975
+extnl target_ps 1500 area 2898.602000 arrival 4.975
+extnl target_ps 4000 area 2898.602000 arrival 4.975
+extnl target_ps 2500 area 2898.602000 arrival 4.975
+extnl target_ps 3000 area 2898.602000 arrival 4.975
+extnl_rte target_ps 2500 area 3059.532000 arrival 4.937
+extnl_rte target_ps 1000 area 3059.532000 arrival 4.937
+extnl_rte target_ps 3000 area 3059.532000 arrival 4.937
+extnl_rte target_ps 4000 area 3059.532000 arrival 4.937
+extnl_rte target_ps 1500 area 3059.532000 arrival 4.937
+SWEEP_DONE

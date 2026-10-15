@@ -1,0 +1,67 @@
+{
+ "args": {
+  "ckpt": "/data/yuan/llama-cpu/llama-2-7b",
+  "tok": "/data/yuan/llama-cpu/tokenizer.model",
+  "nseq": 6,
+  "len": 128,
+  "cfgs": "fp32,fp16,trunc,rte",
+  "offset": 0,
+  "chunk": 8,
+  "thr2": 12,
+  "out": "../results/llama_g8_thr1-5_thr2-12.json"
+ },
+ "results": {
+  "fp32": {
+   "ppl": 10.501963729995774,
+   "tokens": 762,
+   "sec": 22.25050663948059
+  },
+  "fp16": {
+   "ppl": 10.502639794838682,
+   "tokens": 762,
+   "sec": 4463.4412751197815,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00726,
+    "full": 0.99274,
+    "skip_bd": 0.0,
+    "ac": 0.0,
+    "skip": 0.0,
+    "ovf": 0.0
+   },
+   "mean_abs_dnll_fp32": 0.0016345508629456162
+  },
+  "trunc": {
+   "ppl": 10.988218404109052,
+   "tokens": 762,
+   "sec": 4332.110172986984,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00724,
+    "full": 0.00715,
+    "skip_bd": 0.1453,
+    "ac": 0.74396,
+    "skip": 0.09636,
+    "ovf": 0.0
+   },
+   "mean_abs_dnll_fp32": 0.12072660028934479,
+   "mean_abs_dnll_fp16": 0.1206851378083229
+  },
+  "rte": {
+   "ppl": 10.978906359610043,
+   "tokens": 762,
+   "sec": 4386.14529633522,
+   "macs": 5100005228544,
+   "mode_share": {
+    "zero": 0.00725,
+    "full": 0.00715,
+    "skip_bd": 0.14535,
+    "ac": 0.74363,
+    "skip": 0.09661,
+    "ovf": 0.0
+   },
+   "mean_abs_dnll_fp32": 0.12029523402452469,
+   "mean_abs_dnll_fp16": 0.12019537389278412
+  }
+ }
+}

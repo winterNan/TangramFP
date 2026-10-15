@@ -1,0 +1,13 @@
+read_verilog -sv OSS/share/yosys/xilinx/cells_sim.v
+read_verilog NET
+hierarchy -top MAC
+proc; flatten; opt -full
+synth -top MAC -flatten
+attrmap -remove init
+dfflegalize -cell $_DFF_P_ 01 -cell $_DLATCH_P_ x
+dfflibmap -liberty LIB
+techmap -map LATCHMAP
+abc -D PERIOD -liberty LIB
+opt_clean -purge
+stat -liberty LIB
+write_verilog -noattr -noexpr OUT

@@ -22,10 +22,10 @@ clean:
 	yes | rm $(OBJ) $(EXE)
 
 $(OBJ): $(SRC)/*.c $(INCLUDE)/profiler.h
-	$(CC) $(CONFIG) $(CFLAGS) -fPIC -shared -I $(INCLUDE) $^ -o $@
+	$(CC) $(CONFIG) $(CFLAGS) -fPIC -shared -I $(INCLUDE) $(filter %.c,$^) -o $@
 
 $(EXE): $(SRC)/*.c $(INCLUDE)/profiler.h
-	$(CC) $(CONFIG) $(CFLAGS) -I $(INCLUDE) $^ -o $@
+	$(CC) $(CONFIG) $(CFLAGS) -I $(INCLUDE) $(filter %.c,$^) -o $@
 
 $(DEBUG_RUN): CFLAGS=$(DEBUG_FLAG)
 $(DEBUG_RUN): $(SRC)/*.c

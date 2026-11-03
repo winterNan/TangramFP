@@ -1,2 +1,0 @@
-N=4 tangram=1 corr=2 period=13 src=src_t LUT=17021 FF=1023 LATCH=0 CARRY4=688
-worst: delay=15.504 slack=-2.503 from=g_r[3].g_c[0].pe_i/gen_tfp.a_q_reg[1]/C to=g_r[3].g_c[0].pe_i/mac_i/sumout_reg[14]/D

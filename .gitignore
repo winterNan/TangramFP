@@ -2,3 +2,15 @@
 *~
 #*#
 \#*\#
+
+# debugger and build outputs
+.gdb_history
+*.o
+*.so
+__pycache__/
+build/
+*.egg-info/
+sw/tangram32/include/new 47.h
+*.log
+# testbench outputs
+hw/Tangram16/results/

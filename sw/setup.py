@@ -2,7 +2,7 @@ from setuptools import setup
 from torch.utils import cpp_extension
 import os
 
-src_root = '/home/yuan/xormul/src/tangram/'
+src_root = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'tangram16')
 # cpp_src = ['c_src/kacy16_conv2d.cpp',
 #            'c_src/kacy16_conv2d_cuda.cu']
 cpp_src = ['c_src/kacy16_conv2d.cpp']

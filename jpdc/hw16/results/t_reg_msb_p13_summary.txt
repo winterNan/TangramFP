@@ -1,4 +1,0 @@
-gating=3 corr=1 period=13 LUT=1051 LATCH=0 CARRY4=32
-cells_msel: LUT=16
-cells_kacy: LUT=270
-cells_fp_add: LUT=574

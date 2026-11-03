@@ -1,0 +1,31 @@
+# not part of the repository: data, third-party files, generated stimuli and Vivado projects
+data/
+oss/
+fpnew/cvfpu/
+vivado_projects/proj/
+systolic_array/stim/
+systolic_array/out/
+# tool and run outputs
+.Xil/
+__pycache__/
+*.so
+*.jou
+*.log
+*.dcp
+*.sdf
+*.saif
+*.wdb
+*.ys
+xsim.dir/
+results/
+fpga_mac/*/
+asic_45nm/*/
+fpnew/*/
+systolic_array/*/
+*.json
+*.npz
+*.tsv
+*.txt
+!traces/*.txt
+asic_45nm/*.v
+!asic_45nm/latch_map.v

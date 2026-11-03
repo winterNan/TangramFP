@@ -1,5 +1,0 @@
-gating=4 corr=0 LUT=1016 FF=32 LATCH=116 CARRY4=28
-cells_msel: LUT=0 LATCH=0
-cells_kacy: LUT=262 LATCH=40
-cells_fp_add: LUT=565 LATCH=54
-cells_top: LATCH=22

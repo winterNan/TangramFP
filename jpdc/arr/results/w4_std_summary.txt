@@ -1,3 +1,0 @@
-N=4 tangram=0 corr=0 period=20 src=src2 LUT=15535 FF=832 LATCH=0 CARRY4=464
-worst: delay=17.932 slack=1.779 from=g_r[2].g_c[1].pe_i/w_r_reg[3]/C to=g_r[2].g_c[1].pe_i/mac_i/sumout_reg[19]/D
-hold: slack=-1.946
